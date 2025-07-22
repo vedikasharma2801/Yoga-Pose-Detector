@@ -2,7 +2,9 @@
 
 This project is an AI-powered yoga trainer that uses your webcam to identify which yoga asana you are performing in real-time. It provides immediate feedback on the name of the pose and a confidence score for the prediction.
 
-
+![Live Project SS 1](1.png)
+![Live Project SS 2](2.png)
+![Live Project SS 3](3.png)
 ---
 
 ## 📋 Features
@@ -34,7 +36,8 @@ yoga_pose_project/
 |
 |-- app/
 |   |-- templates/
-|   |   -- index.html |   -- main.py
+|       |-- index.html
+|   |-- main.py
 |
 |-- data/
 |   |-- augmented_videos/
@@ -48,7 +51,11 @@ yoga_pose_project/
 |
 |-- models/
 |   |-- label_encoder.pkl
-|   -- yoga_pose_model.keras | |-- src/ |   |-- 01_data_augmentation.py |   |-- 02_data_preprocessing.py |   -- 03_train_model.py
+|   -- yoga_pose_model.keras 
+|-- src/ 
+    |-- 01_data_augmentation.py 
+    |-- 02_data_preprocessing.py 
+    |-- 03_train_model.py
 |
 |-- README.md
 |-- requirements.txt
@@ -62,8 +69,8 @@ Download the dataset from kaggle or prepare it by yourself.
 
 1.  **Clone the Repository**
     ```bash
-    git clone [https://github.com/your-username/yoga-pose-project.git](https://github.com/your-username/yoga-pose-project.git)
-    cd yoga-pose-project
+    git clone https://github.com/vedikasharma2801/Yoga-Pose-Detector.git
+    cd Yoga-Pose-Detector
     ```
 
 2.  **Create a Virtual Environment** (Recommended)
